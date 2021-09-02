@@ -236,8 +236,13 @@ header div h1{
     font-size: 20px;
     margin-bottom: 0.5rem;
     font-family:'Playfair Display', serif !important;
-
 }
+.column-half h4{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
 .padding-y-1rem{
     color: rgba(255, 255, 255, 0.8);
     padding: 1rem 0 1rem 0;
@@ -270,6 +275,7 @@ header div h1{
     padding-bottom:5rem;
 }
 .upper-part,.lower-part{
+    width: 100%;
     display: flex;
 }
 
@@ -286,12 +292,17 @@ header div h1{
     height: auto;
     text-align: center;
 }
+/* .card .card-body:hover{
+    width:33.33%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+} */
 .fab, .fas{
     font-size: 40px;
     color: #000000;
     margin-bottom: 20px;
 }
-
 .card-body{
     width: 340px;
     padding: 2rem 1.5rem;
@@ -300,7 +311,7 @@ header div h1{
 }
 .card-header{
     font-family: 'Playfair Display', serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 23px;
     font-weight: 600;
     color: #a3c962;
@@ -407,14 +418,13 @@ header div h1{
 }
 .footer-item{
     width: 25%;
-    padding-top:4rem;
+    padding-top:3rem;
     padding-bottom:4rem;
     text-align:center;
 }
 .footer-item i{
     color: #ffff;
     text-align: center;
-    margin-left: 1rem;
 }
 .footer-number{
     font-size: 25px;
@@ -433,15 +443,377 @@ header div h1{
     font-family: 'Playfair Display', serif;
     /* font-family: 'Open Sans', sans-serif; */ 
 }
+.fac{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px !important;
+}
 /* end of the gallery */
 
 /* start of the our features */
+.our-features{
+    width: 100%;
+}
 .features-color{
     color: #000;
 }
 .features-y-4rem{
-    margin-top: 5rem;
-    margin-left: 10rem;
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 15rem;
 }
+.padding-x-2rem h5{
+    font-size: 18px;
+    color:  #a3c962;
+}
+.padding-x-2rem h1{
+    font-size: 37px;
+    letter-spacing: 2px;
+
+}
+.features-wrapper{
+    width: 45%;
+}
+.padding-x-2rem{
+    width: 65%;
+    padding-left: 2rem;
+}
+.padding-y-2rem{
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 30px;
+}
+.img{
+    width: 400px;
+    height: 450px;
+}
+.features-first{
+    width: 45%;
+    margin-top: 2rem;
+}
+.fetures-second{
+    width: 55%;
+    margin-top: 2rem;
+}
+.fetures-second-item{
+    width: 100%;
+    display: flex;
+    padding: 20px 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: -3px 7px 39px -5px rgb(0 0 0);
+    margin-bottom: 25px;
+}
+.fetures-second-item2{
+    width: 90%;
+    display: flex;
+    margin-left: 10%;
+    text-align: start;
+    padding: 20px 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: -3px 7px 39px -5px rgb(0 0 0);
+    margin-bottom: 25px;
+}
+
+.features-item1{
+    width: 30%;
+    text-align: center;
+}
+.features-item2{
+    width: 70%;
+    text-align: left;
+}
+.fav{
+justify-content: center;
+padding-top: 10px;
+}
+.row-features-text h2{
+    color: #a3c962;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.row-features-text p{
+    padding: 0 3rem 0 0;
+    color: #4c4c4c;
+    line-height: 28px;
+}
+
 /* end of the our features */
 
+/* start of the our plan */
+
+.our-plan{
+    width: 100%;
+    background-image: url('https://demo.w3layouts.com/demos_new/template_demo/17-12-2018/forest-demo_Free/2069386206/web/images/b2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4rem;
+    color: #ffff;
+}
+.title-page{
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+}
+.plan-wrapper-first{
+    width:40%;
+    text-align: end; 
+}
+.plan-wrapper-second{
+    width:42%;
+    text-align:start; 
+
+}
+.paln-head{
+    font-size: 20px;
+    font-weight: 600;
+    color: #a3c962;
+    font-family: 'Playfair Display', serif;
+}
+.plan-price{
+    font-size: 37px;
+    letter-spacing: 2px;
+}
+.paln-top-padding{
+    padding-top: 0.5rem;
+    color: #ffff;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.our-plan-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+.plan-card-item{
+    width: 25%;
+    background-color: #ffff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.plan-list ul li{
+    list-style-type: none;
+}
+ .list-plan2 ,.list-plan3, .list-plan4{
+    margin-left: 30px;
+}
+.plan-wrapper{
+    color: #a3c962;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    /* line-height: 5rem; */
+    padding: 18px 0 ;
+}
+.plan-wrapper span{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+
+}
+.plan-wrapper p{
+    display: inline;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.plan-name h4{
+font-size: 22px;
+font-weight: 700;
+font-family: 'Playfair Display', serif;
+margin-top: 20px;
+letter-spacing: 1px;
+color: #a3c962;
+}
+.plan-list ul li{
+    color: #4c4c4c;
+    padding-top: 11px;
+    font-size: 14px;
+}
+.plan-book{
+    padding: 18px 0;
+}
+.plan-book button{
+    color: #ffff;
+    width: 120px;
+    font-size: 15px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 8px 20px;
+    background-color: #a3c962;
+}
+.plan-book button:hover{
+    background-color: #000;
+
+}
+.plan-book button a{
+    text-decoration: none;
+    color: #ffff;
+}
+/* end of the our plan */
+
+/* starting of the our clients */
+.client-name{
+    margin-top: 25px;
+}
+.align-left{
+    text-align: start;
+
+}
+.client-card-body{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.8);
+    padding-top: 20px;
+
+}
+
+.card-body-clients{
+    width: 370px;
+    padding: 2rem 1.5rem;
+    background: white;
+}
+.clint-padding{
+    padding-bottom: 5rem;
+}
+.clint-position{
+    color: rgba(0, 0, 0, 0.8);
+    letter-spacing: 1px;
+    padding-top: 5px;
+    text-align: start;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+.image-box{
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+}
+/* end of our clients */
+
+/* client footer */
+.client-footer{
+    background-color: #a3c962;
+    padding: 30px 0 80px 0;
+}
+.youtube{
+    width: 100%;
+    text-align: center;
+}
+.youtube iframe{
+    width: 250px;
+    height: 100px;
+}
+.footer-row-1{
+    text-align: center;
+    padding: 20px;
+    color: #ffff;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.footer-row-2{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+/* starting of the volunteers */
+.image-wrapper-size{
+    width: 255px;
+    height: 328px;
+}
+.margin-buttom{
+    margin-bottom: 0rem;
+}
+.row-align-text{
+    text-align: center;
+}
+.col-padding{
+    padding: 8px 0 0;
+    letter-spacing: 2px;
+}
+.icon-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.fss{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0;
+}
+.facs{
+    color: #ffff;
+    width: 35px;
+    height: 35px;
+    background-color: #000;
+    border-radius: 35px;
+    margin:8px;
+}
+/* end of the volunteers */
+
+/* starting of the our blog */
+.our-blog{
+    background-image: url('https://images.unsplash.com/photo-1610897946052-4f46ba2eb374?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGFsb25lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-color{
+    color: #ffff;
+}
+.row-margin{
+    margin: 0 2.5rem 0;
+}
+.blog-size{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.blog-font{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.blog-card{
+    width:33%;
+    height: auto;
+    text-align: center;
+}
+.blog-image{
+    padding: 10px;
+}
+.blog-image img{
+    width: 310px;
+    height: 232.5px;
+}
+
+.card-body-blog{
+    width: 340px;
+    background: white;
+}
+.blog-body{
+    padding: 0 0 20px 17px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.blog-card-body{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 20px 5px 0 0;
+}
+.blog-date{
+    color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-right: 36px;
+    font-size: 15px;
+}
+/* end of the our blog */
